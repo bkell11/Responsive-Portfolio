@@ -57,6 +57,9 @@ nav a{
 
 nav a:first-child{
     border-left: 0;
+    padding-left: 0;
+    margin-left: 0;
+
 }
 
 h2, h3, h4 {
@@ -257,8 +260,7 @@ body{
 @media screen and (max-width: 640px) {
 
 .container{
-    width: 100%;
-    max-width: 325px;
+    max-width: 100%;
     margin: 0 auto;
     clear: both;
 }
@@ -278,6 +280,12 @@ body{
 
 #me{
     width: 100%;
+}
+
+nav{
+    text-align: center;
+    float: none;
+    margin-top: 0;
 }
 
 }
